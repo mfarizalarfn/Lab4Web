@@ -68,3 +68,32 @@ Berikut hasilnya :<br>
 
 ![gambar 1](image/pict1.PNG) <br>
 <br>
+
+4. Mengatur Clearfix Element <br>
+**Clearfix** digunakan untuk mengatur element setelah float element. Property clear digunakan untuk mengaturnya.<br>
+Tambahkan element div lainnya seteleah div3 seperti berikut.<br>
+
+```
+<section>
+    <div class="div1">Div 1</div>
+    <div class="div2">Div 2</div>
+    <div class="div3">Div 3</div>
+    <div class="div4">Div 4</div>
+</section>
+```
+<br>
+Kemudian atur property clear pada CSS, seperti berikut.<br>
+
+```
+.div4 {
+    background-color: blue;
+    clear: left;
+    float: none;
+}
+```
+<br>
+Selanjutnya buka browser dan refresh kembali. <br>
+<br>
+
+![gambar 2](image/pict2.PNG) <br>
+<br>
