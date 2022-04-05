@@ -182,7 +182,7 @@ Kemudian buka browser dan lihat hasilnya.<br>
 ![gambar 4](image/pict4.PNG) <br>
 <br>
 
-**Membuat Navigasi**
+**Membuat Navigasi**<br>
 Kemudian selanjutnya mengatur navigasi.<br>
 
 ```
@@ -218,4 +218,40 @@ Kemudian lihat hasilnya.<br>
 <br>
 
 ![gambar 5](image/pict5.PNG) <br>
+<br>
+
+**Membuat Hero Panel** <br>
+Selanjutnya membuat hero panel. Tambahkan kode HTML dan CSS seperti berikut.<br>
+
+```
+<section id="hero">
+    <h1>Hello World!</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum lorem elit, iaculis innisl volutpat, malesuada tincidunt arcu. Proin in leo fringilla, vestibulum mi porta, faucibus felis. Integer pharetra est nunc, nec pretium nunc pretium ac.</p>
+    <a href="home.html" class="btn btn-large">Learn more &raquo;</a>
+</section>
+```
+<br>
+
+```
+/* Hero Panel */
+#hero {
+    background-color: #e4e4e5;
+    padding: 50px 20px;
+    margin-bottom: 20px;
+}
+#hero h1 {
+    margin-bottom: 20px;
+    font-size: 35px;
+}
+#hero p {
+    margin-bottom: 20px;
+    font-size: 18px;
+    line-height: 25px;
+}
+```
+<br>
+Kemudian lihat hasilnya.<br>
+<br>
+
+![gambar 6](image/pict6.PNG) <br>
 <br>
