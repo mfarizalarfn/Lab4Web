@@ -97,3 +97,85 @@ Selanjutnya buka browser dan refresh kembali. <br>
 
 ![gambar 2](image/pict2.PNG) <br>
 <br>
+Bisa juga melakukan eksperimen terhadap penggunaan property clear dengan nilai lainnya *(left, both, right)*, dan amati perubahannya.<br>
+<br>
+
+****Membuat Layout Sederhana****
+<br>
+
+Buat **folder baru** dengan nama **lab4_layout**, kemudian buatlah file baru didalamnya dengan nama **home.html**, dan file css dengan nama **style.css**.<br>
+```
+<!DOCTYPE html>
+<html lang="en">
+<header>
+    <h1>Layout Sederhana</h1>
+</header>
+    <nav>
+    <a href="home.html" class="active">Home</a>
+    <a href="artikel.html">Artikel</a>
+    <a href="about.html">About</a>
+    <a href="kontak.html">Kontak</a>
+</nav>
+<section id="hero"></section>
+<section id="wrapper">
+    <section id="main"></section>
+    <aside id="sidebar"></aside>
+</section>
+<footer>
+    <p>&copy; 2021 - Universitas Pelita Bangsa</p>
+</footer>
+<body>
+    <div id="container">
+
+    </div>
+</body>
+</html>
+```
+<br>
+Kemudian buka browser dan lihat hasilnya.<br>
+<br>
+
+![gambar 3](image/pict3.PNG) <br>
+<br>
+Kemudian tambahkan kode CSS untuk membuat layoutnya.<br>
+
+```
+/* import google font */
+@import
+url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+@import
+url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@0,300;0,700;1,300&display=swap');
+
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    line-height:1;
+    font-size:100%;
+    font-family:'Open Sans', sans-serif;
+    color:#5a5a5a;
+}
+#container {
+    width: 980px;
+    margin: 0 auto;
+    box-shadow: 0 0 1em #cccccc;
+}
+
+/* header */
+header {
+    padding: 20px;
+}
+header h1 {
+    margin: 20px 10px;
+    color: #b5b5b5;
+}
+```
+
+<br>
+Kemudian buka browser dan lihat hasilnya.<br>
+<br>
+
+![gambar 4](image/pict4.PNG) <br>
+<br>
