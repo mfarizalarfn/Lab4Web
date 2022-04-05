@@ -100,10 +100,11 @@ Selanjutnya buka browser dan refresh kembali. <br>
 Bisa juga melakukan eksperimen terhadap penggunaan property clear dengan nilai lainnya *(left, both, right)*, dan amati perubahannya.<br>
 <br>
 
-****Membuat Layout Sederhana****
+# Membuat Layout Sederhana
 <br>
 
 Buat **folder baru** dengan nama **lab4_layout**, kemudian buatlah file baru didalamnya dengan nama **home.html**, dan file css dengan nama **style.css**.<br>
+
 ```
 <!DOCTYPE html>
 <html lang="en">
@@ -137,7 +138,8 @@ Kemudian buka browser dan lihat hasilnya.<br>
 
 ![gambar 3](image/pict3.PNG) <br>
 <br>
-Kemudian tambahkan kode CSS untuk membuat layoutnya.<br>
+
+**Kemudian tambahkan kode CSS untuk membuat layoutnya.**
 
 ```
 /* import google font */
@@ -178,4 +180,42 @@ Kemudian buka browser dan lihat hasilnya.<br>
 <br>
 
 ![gambar 4](image/pict4.PNG) <br>
+<br>
+
+**Membuat Navigasi**
+Kemudian selanjutnya mengatur navigasi.<br>
+
+```
+/* header */
+header {
+    padding: 20px;
+}
+header h1 {
+    margin: 20px 10px;
+    color: #b5b5b5;
+}
+
+/* navigasi */
+nav {
+    display: block;
+    background-color: #1f5faa;
+}
+nav a {
+    padding: 15px 30px;
+    display: inline-block;
+    color: #ffffff;
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav a.active,
+nav a:hover {
+    background-color: #2b83ea;
+}
+```
+<br>
+Kemudian lihat hasilnya.<br>
+<br>
+
+![gambar 5](image/pict5.PNG) <br>
 <br>
