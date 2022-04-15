@@ -339,3 +339,22 @@ Kemudian lihat hasilnya.<br>
 
 ![gambar 7](image/pict7.PNG) <br>
 <br>
+
+**Mengatur Footer**<br>
+Selanjutnya mengatur tampilan footer. Tambahkan CSS untuk footer.<br>
+
+```
+/* footer */
+footer {
+    clear:both;
+    background-color:#1d1d1d;
+    padding:20px;
+    color:#eee;
+}
+```
+<br>
+Berikut hasilnya.<br>
+<br>
+
+![gambar 8](image/pict8.PNG) <br>
+<br>
